@@ -34,6 +34,14 @@ const Header = (props: Props) => {
         <BsCart3 className="w-7 h-7" />
         <GrGroup className="w-7 h-7" />
       </div>
+      {/* right */}
+      <div>
+      <div className="md:flex space-x-6 hidden ">
+          <GrAppsRounded className="w-7 h-7" />
+          <FaBell className="w-7      h-7" />
+          <AiOutlineMessage className="w-7 h-7" />
+        </div>
+      </div>
     </div>
   )
 }
