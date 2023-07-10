@@ -4,7 +4,7 @@ import Header from '@/components/Header'
 export default function Home() {
   return (
     <main className="">
-        <div>Welcome to my facebook  </div>
+        <div> </div>
         <Header/>
     </main>
   )
