@@ -6,7 +6,7 @@ import { FiPlayCircle, FiFlag, FiMessageCircle } from "react-icons/fi";
 import { BsCart3 } from "react-icons/bs";
 import { GrGroup, GrAppsRounded } from "react-icons/gr";
 import { FaBell } from "react-icons/fa";
-import { AiOutlineMessage } from "react-icons/ai";
+import { AiOutlineMessage, AiOutlineShop } from "react-icons/ai";
 import sheva from "../assets/sheva .png";
 
 type Props = {};
@@ -36,10 +36,10 @@ const Header = (props: Props) => {
           <FiPlayCircle className="w-7 h-7" />
         </div>
         <div>
-          <FiFlag className="w-7 h-7" />
+          <AiOutlineShop className="w-9 h-9" />
         </div>
         <div>
-          <BsCart3 className="w-7 h-7" />
+          <FiFlag className="w-7 h-7" />
         </div>
         <div>
           <MdGroups className="w-9 h-9" />
@@ -47,7 +47,7 @@ const Header = (props: Props) => {
       </div>
       {/* right */}
       <div className="flex space-x-6 items-center ml-0">
-        <div className="md:flex space-x-6 hidden ">
+        <div className="md:flex space-x-6 hidden  ">
           <GrAppsRounded className="w-7 h-7" />
           <AiOutlineMessage className="w-7 h-7" />
           <FaBell className="w-7 h-7" />
